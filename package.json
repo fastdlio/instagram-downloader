@@ -1,0 +1,41 @@
+{
+  "name": "fastdl-instagram-downloader",
+  "version": "1.0.0",
+  "description": "Fast, free & open-source Instagram media downloader built with Next.js, React, Tailwind CSS, and TypeScript. Official open-source project by FastDL (https://fastdl.io/).",
+  "private": false,
+  "author": "FastDL <contact@fastdl.io> (https://fastdl.io/)",
+  "license": "MIT",
+  "keywords": [
+    "instagram-downloader",
+    "fastdl",
+    "instagram-reels-downloader",
+    "instagram-video-downloader",
+    "nextjs",
+    "react",
+    "tailwind",
+    "typescript"
+  ],
+  "homepage": "https://fastdl.io/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.474.0",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
